@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Weight Converter</string>
+    <!-- Converter Activity -->
+    <string name="title_kg">Kilograms to pounds (kg to lbs)</string>
+    <string name="title_lbs">Pounds to kilograms (lbs to kg)</string>
+    <string name="rb_kg_lbs">kg -> lbs</string>
+    <string name="rb_lbs_kg">lbs -> kg</string>
+    <string name="resulte_kg" formatted="false"> kg = %.4f lbs</string>
+    <string name="resulte_lbs" formatted="false"> lbs = %.4f kg</string>
+    <string name="edit_text_hint">Enter a number</string>
+
+    <!-- About Activity -->
+    <string name="txt_about_version">Build: v1.0_20140704</string>
+    <string name="txt_about_description">Weight Converter is a free android application which quickly 
+        and easily converts a range of popular weight types (kilograms to pounds, pounds to kilograms). This application sets out to provide a simple, clean interface for the user, 
+        in order to efficiently carry out weight conversions with the minimum of fuss.</string>
+    <string name="txt_about_author">Weight Converter was designed and configured by Group B (Yuriy Borysiuk, Anugrah SP)</string>
+
+    <!-- Dialog View -->
+    <string name="dialog_title">Warning message</string>
+    <string name="dialog_msg">Please enter a number</string>
+
+    <!-- Setting Menu -->
+    <string name="menu_setting_title">Setting</string>
+    <string name="menu_about_title">About</string>
+
+</resources>

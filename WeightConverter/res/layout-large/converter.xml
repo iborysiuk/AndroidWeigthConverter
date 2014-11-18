@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/abstract_backgrn"
+    tools:context="com.myapp.weightconverter.ConverterActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <RadioButton
+        android:id="@+id/rbKgLbs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edWeight"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="@string/rb_kg_lbs"
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+
+    <RadioButton
+        android:id="@+id/rbLbsKg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/rbKgLbs"
+        android:layout_below="@+id/rbKgLbs"
+        android:layout_marginTop="50dp"
+        android:text="@string/rb_lbs_kg"
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/txtResulte"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rbLbsKg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="61dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/white"
+        android:textSize="35sp" />
+
+    <TextView
+        android:id="@+id/txtAboutTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/edWeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/txtAboutTitle"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:gravity="center_vertical|start"
+        android:hint="@string/edit_text_hint"
+        android:inputType="numberDecimal"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+</RelativeLayout>

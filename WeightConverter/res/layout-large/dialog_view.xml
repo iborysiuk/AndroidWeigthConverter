@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical">
+
+  <TextView
+      android:id="@+id/dialog_text_view"
+      android:layout_width="match_parent"
+      android:layout_height="35dp"
+      android:gravity="center|center_horizontal"
+      android:text="@string/dialog_msg"
+      android:textSize="20sp"
+      android:textStyle="bold" />
+
+  <ImageButton
+      android:id="@+id/dialog_imgBtn"
+      android:layout_width="190dp"
+      android:layout_height="40dp"
+      android:layout_gravity="center"
+      android:background="@drawable/abc_list_selector_holo_light"
+      android:scaleType="centerInside"
+      android:src="@drawable/check_icon" />
+
+</LinearLayout>
